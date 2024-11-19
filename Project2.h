@@ -110,7 +110,7 @@ void game(string&difficulty,string&Continue,int& score,numGuess& highscore) {
 		}
 		//Incase User inputs anything other than "y", that way the while loop will run again
 		else
-			Continue == "y";
+			Continue = "y";
 		cout << endl << "_____________________Next Game______________________________" << endl;
 		score = 0;
 //cin.ignore with the help of google assistance "Recursion cin/getline() problems"
